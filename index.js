@@ -78,4 +78,4 @@ client.on("guildMemberRemove", user =>{
   user.guild.channels.get("722175732263944324").send(leaveEmbed)
 });
 
-client.login("NzIzMTk3MTg0NzIzNTE3NDkx.XuyjWw.Oh5bj3-S1x1V_O8BMYYAlxg68Fw");
+client.login(process.env.TOKEN);
