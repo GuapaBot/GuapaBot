@@ -74,7 +74,7 @@ client.on("guildMemberRemove", user =>{
   .setColor("#f41111")
   .setAuthor(user.user.username, user.user.displayAvatarURL)
   .setDescription(":angry: Oh ! " + user + " est libérable il quitte 𝕃𝕒 𝔾𝕒𝕣𝕕𝕒𝕧 👮 !")
-  .setFooter("Nous sommes désormais ${user.guild.memberCount} personnes !")
+  .setFooter(`Nous sommes désormais ${user.guild.memberCount} personnes !`)
   user.guild.channels.get("722175732263944324").send(leaveEmbed)
 });
 
